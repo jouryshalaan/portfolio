@@ -1,0 +1,68 @@
+header{
+    display:flex;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-between;
+    position:absolute;
+    padding:10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+    
+ 
+
+h1,h3{
+    color: rgb(222, 190, 253);
+    font-weight: 500;
+}
+.projects-card{
+    background-color: rgb(136, 8, 196);
+    border: 1px solid rgb(180, 180, 180);
+    width: 23em;
+    border-radius: 10px;
+    margin: 20px;
+}
+.projects-image img{
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+  }
+  
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  
+
+  
+
